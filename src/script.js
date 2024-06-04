@@ -27,7 +27,7 @@ copyBtn.addEventListener("click", ()=>{
 
 twitterBtn.addEventListener("click", ()=>{
   let tweetUrl = 'https://twitter.com/intent/tweet?url=${quoteText.innerText}';
-  window.open{tweetUrl, "_blank"};
+  window.open(tweetUrl, "_blank");
 });
 
 quoteBtn.addEventListener("click", randomQuote);
